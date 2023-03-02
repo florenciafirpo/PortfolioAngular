@@ -1,0 +1,5 @@
+/*boton de edición de Banner */
+.btn.btn-close-white.editBanner{
+    position: absolute;
+    margin-left: -3rem;
+}

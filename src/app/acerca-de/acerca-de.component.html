@@ -1,0 +1,82 @@
+<section id="sobreMi" class="sobreMi text-white mt-4">
+    <div class="seccion container-fluid rounded shadow-sm mb-5 bg-body-transparent p-0">
+        <div class="row p-3">
+            <div class="col-3">
+              <img src="assets/img/APLogo.png.jpeg" class="rounded-circle profileImage w-50" alt="profileImage"> 
+              
+              <!-- Button trigger modal -->  
+              <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#profileModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
+              <br>
+              <h4 class="nombrePerfil">Florencia Firpo</h4>
+              <br>
+              <h5 class="tituloPerfil">Desarrolladora Web </h5>
+              <h5 class="tituloPerfil">Full Stack Jr.</h5>
+            </div>
+            <div class="col-8 text-md-start">
+              <h4 class="sobreMiPerfil">Soy Florencia Firpo, tengo 29 años y estudio Desarrollo Web Full Stack en Argentina Programa. 
+                Me apasiona la programación y siempre estoy interesada en aprender nuevas habilidades y tecnologías. 
+                Actualmente estoy creando proyectos HTML, CSS, JavasacriptT, Bootstrap y Angular. 
+                Uso Git y GitHub para compartir mi trabajo con otros desarrolladores, colaborar y aprender día a día novedades y avances.
+                Además de programación, tengo habilidades blandas como trabajo en equipo, comunicación y liderazgo. 
+                Estoy muy comprometida con el aprendizaje continuo y siempre me esfuerzo por mejorar mis habilidades y conocimientos, así como trabajar en equipo para lograr los objetivos comunes, aplicando un enfoque en la calidad.</h4>
+            </div>
+            <div class="col-1 p-0">
+              <!-- Button trigger modal -->  
+              <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#sobreMiModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
+              <button type="submit" id="btn" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+          </div>
+        </div>
+                </section>
+                <!-- Modal Login-->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form name="loginForm"> 
+                <!-- formulario de login-->
+                <div class="mb-3">
+                  <label for="loginEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Ingrese su correo electrónico</div>
+                </div>
+                <div class="mb-3">
+                  <label for="loginPassword" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="loginPassword">
+                  <div id="passwordHelp" class="form-text">Ingrese su contraseña</div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btnLogin" data-bs-dismiss="modal">Iniciar Sesión</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal Sobre Mi -->
+<div class="modal fade" id="sobreMiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar Texto Sobre Mi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form name="sobreMiFrom"> 
+              <!-- formulario de Sobre Mi-->
+              <div class="mb-3">
+                <label for="sobreMiTexto" class="form-label">Modificar Sobre Mi</label>
+                <textarea class="form-control" id="sobreMiTexto" rows="3"></textarea>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button type="submit" class="btn btnLogin" data-bs-dismiss="modal">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>

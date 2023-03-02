@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+body{    
+    background-image:
+            linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.932),
+            rgba(255, 255, 255, 0),
+            rgb(0, 0, 0, 0.932)
+        ), url(../../angularflor/src/assets/img/formas-papel-abstracto-rosa-azul-sombra.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 1rem ;
+}
+/* estilo de secciones */
+.seccion{
+    background-color: rgba(136, 156, 156, 0.733);
+   }
+   
+   /* botones modal */
+   .btn.btnLogin{
+       background-color:  rgba(62, 137, 137, 0.733);
+   }
+   .btn.btnCancel{
+       background-color: rgba(32, 105, 107, 0.795);
+   }
+   .btn.btnAgree{
+       background-color: rgba(32, 46, 107, 0.795);
+   }
+   .btn.btnMod{
+       background-color: rgba(107, 106, 32, 0.795);
+   }
+   .btn.btnDelete{
+       background-color: rgba(107, 32, 32, 0.795);
+   }
+   
+   .btn.btnLogin,
+   .btn.btnCancel,
+   .btn.btnAgree,
+   .btn.btnMod,
+   .btn.btnDelete{
+       color: white;
+   }
+   

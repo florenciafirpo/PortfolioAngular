@@ -1,0 +1,40 @@
+/*imagen de perfil */
+.profileImage{
+    box-shadow: 6px 6px 5px 2px rgba(24, 21, 21, 0.945);
+    margin-top: -8em;
+    margin-left: 1em;
+    min-width: 5em;       
+}
+
+/*boton de edición de Banner */
+.btn.btn-close-white.editBanner{
+ position: absolute;
+ margin-left: -3rem;
+}
+
+/* colores de botones de edición */
+.btn.btn-close-white:hover,
+.btn.btn-close-white{
+ color: black;
+}
+
+
+
+
+.claseds{
+ color:rgb(189, 117, 35);
+}
+
+.botonEli{
+ background-color: rgb(7, 129, 48);
+}
+
+.botonEli:hover{
+ background-color: rgb(6, 66, 26);
+ background-color: brown;
+}
+.tituloPerfil, .nombrePerfil{
+    display: flex; 
+    justify-content: center;
+    margin-left: -8rem;
+}
